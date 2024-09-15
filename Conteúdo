@@ -1,0 +1,38 @@
+#1 INTRODUÇÃO
+Nos últimos tempos, a computação em nuvem vem sendo anunciada por suas comodidades e  oportunidades que ela proporciona. Este artigo tem por objetivo contextualizar a tecnologia em nuvem e abordar as aplicações que podem ser construídas, explicando ainda sobre arquiteturas e ferramentas.
+
+#2 COMPUTAÇÃO EM NUVEM
+A computação em nuvem consiste na oferta de recursos de informática fora da organização. Ou seja, existe um terceiro que construiu e mantém essa estrutura computacional e as empresas contratam a utilização desses recursos (Scatolin, 2019, p. 9).
+Os serviços em nuvem podem disponibilizar ferramentas técnicas como acessos a computadores remotos, recursos de rede e armazenamento, mas proporcionam também ferramentas não técnicas para utilização do usuário final, como ERP’s, aplicativos de bancos, mapas, entre muitos outros (Scatolin, 2019, p 36).
+3 OPORTUNIDADES GERADAS PELA COMPUTAÇÃO EM NUVEM
+Dado as características de alta disponibilidade, desempenho escalável, e fácil acesso, a tecnologia em nuvem fornece inúmeras oportunidades de negócio (Scatolin, 2019, p 67). Existem duas formas de utilização da tecnologia em nuvem que podem gerar oportunidades de negócio para as empresas e organizações.
+A primeira delas é utilizar ambientes do tipo PaaS (plataforma como serviço), onde a arquitetura de desenvolvimento do software está na nuvem, obtendo-se maior flexibilidade para trabalho dos desenvolvedores, e também tendo-se disponível uma maior quantidade de ferramentas e ferramentas mais atualizadas (Scatolin, 2019, p 41). 
+A segunda fonte de oportunidades é a construção de soluções SaaS (software como serviço), onde os usuários utilizam os programas diretamente pela internet, sendo que as aplicações possuem uma única “instalação” (em um servidor em nuvem) e os clientes consomem a aplicação a partir desta instalação. Esse é um modelo que vem se difundindo muito, devido aos baixos custos, sua distribuição rápida e a facilidade de instalação (Scatolin, 2019, p 48).
+4 APLICAÇÕES PARA A NUVEM
+Para usufruir dos recursos disponibilizados na nuvem e também obter estabilidade nas aplicações, existem alguns padrões e arquiteturas que podem ser seguidos.
+4.1 HTTP E REST
+Conforme Scatolin (2019, p. 73), HTTP  é um protocolo que é responsável pela transmissão de dados pela Web. Esses dados transitam em forma de texto ou em forma de bits e podem conter áudio, vídeo, etc. Essa transmissão sempre ocorre entre um cliente e um servidor, sendo que o cliente indica o caminho do servidor a partir da URL.
+Já REST, conforme explicado por Lima (2020) é um modelo de arquitetura que fornece as regras para a comunicação entre diversos sistemas dentro da WEB. O REST determina que cada requisição será composto por quatro partes:
+Verbo: Indica a operação que será realizada a partir da requisição, podendo ser GET, POST, PUT ou DELETE;
+Header: Cabeçalho da requisição onde conterá informações sobre ela;
+Path: É a URL ou rota para o servidor;
+Corpo: Conterá os dados que o cliente pretende transmitir ou informar para o servidor.
+O REST ainda determina o padrão de resposta para as requisições. As respostas mais comuns são: 200 - Ok, 400 - Bad request, 404 - Not found, etc.
+4.2 MICROSSERVIÇOS
+Dias explica que os microsserviços são uma arquitetura de desenvolvimento de software onde a aplicação não é construída sendo um único programa, mas com vários, onde cada um será responsável por uma função da aplicação. Nesse conceito, cada pequeno software é chamado de serviço.
+Segundo a AWS, a opção por esta arquitetura trás diversos benefícios:
+Escalabilidade flexível: Com os microsserviços, é possível escalar cada um de forma independente. Assim, a infraestrutura fica dimensionada corretamente conforme as necessidades da aplicação;
+Resiliência: As aplicações com arquiteturas em microsserviços suportam melhor as falhas, pois problemas em um serviço afetam somente aquele e as demais aplicações continuam a operar normalmente;
+Liberdade tecnológica: Cada microsserviço pode ser escrito em linguagens diferentes, bem como utilizar outras tecnologias, o que permite para as equipes optarem por essas ferramentas mais adequadas às suas necessidades;
+Os itens citados acima são os principais benefícios, mas conforme Scatolin (2019, p 88), a tecnologia proporciona muitos outros, como códigos menos complexos, ciclos de operação otimizados, melhoria no processo de testes, etc.
+5 MOBILE
+Os smartphones e outros dispositivos móveis se popularizaram muito e a tecnologia em nuvem contribuiu e pode contribuir ainda mais com essa popularização. Scatolin (2019, p. 80) comenta que é possível projetar aplicativos para dispositivos móveis onde o processamento e o armazenamento sejam realizados em uma nuvem e o aparelho opera como um cliente, recebendo os dados via 3G e 4G e exibindo as informações para o usuário.
+6 CONCLUSÃO
+Utilizar a computação em nuvem traz benefícios para a organização em praticamente todos os departamentos. No desenvolvimento das aplicações é proporcionado ferramentas modernas e atualizadas que permitem um desenvolvimento eficiente.
+Mas ter um software sendo executado e distribuído em nuvem, proporciona grandes oportunidades de negócio, pois se torna mais simples para os usuários utilizarem, e, ainda, as rápidas atualizações permitidas fazem com que se atendam melhor às necessidades dos usuários.
+Para explorar todos os benefícios da computação em nuvem, é importante utilizar as técnicas indicadas acima, como microsserviços e REST, pois elas permitem maior escalabilidade, resiliência das aplicações e também um padrão claro de comunicação entre os dispositivos.
+7 REFERÊNCIAS BIBLIOGRÁFICAS
+DIAS, Vinicíus. Microsserviços: padrões de projeto. 2022. Disponível em: https://www.alura.com.br/conteudo/microsservicos-padroes-projeto--amp?gclid=Cj0KCQiA-JacBhC0ARIsAIxybyMWnxYKjw-89Hu83cWtsd1IYwKkKw-Kz4MHEuJ7X2x0oEWKM6ufaYMaAhdXEALw_wcB. Acesso em: 29 nov. 2022.
+LIMA, Guilherme. REST: Conceito e fundamentos. 2020. Disponível em: https://www.alura.com.br/artigos/rest-conceito-e-fundamentos. Acesso em: 28 nov. 2022.
+MARQUES, Jorge Umberto Scatolin. Arquitetura orientada a serviços e microsserviços, computação em nuvem e mobile. Disponível em: https://portalaluno.unyleya.edu.br/1097847/curso/165206/modulo/2816230/sala/216490. Acesso em: 27 nov. 2022.
+Microsserviços. Disponível em: https://aws.amazon.com/pt/microservices/. Acesso em: 30 nov. 2022.
